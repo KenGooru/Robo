@@ -23,9 +23,6 @@ class Spaceship < ActiveRecord::Base
   validates :durability, presence: true
   validates :quality, presence: true
 
-  validates :location, presence: true
-  validates :spaceship_model, presence: true
-
   def location_id
     self.location.id unless self.location.nil?
   end

@@ -28,11 +28,11 @@ class Robot < ActiveRecord::Base
 
   validates :name_first, presence: true
   validates :name_last, presence: true
-  validates :creation_date, presence: true
+  #validates :creation_date, presence: true
 
-  validates :location, presence: true
-  validates :job, presence: true
-  validates :robot_model, presence: true
+  #validates :location, presence: true
+  #validates :job, presence: true
+  #validates :robot_model, presence: true
 
   has_attached_file :picture,
     styles: {

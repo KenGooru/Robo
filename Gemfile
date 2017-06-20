@@ -6,6 +6,7 @@ gem 'rails-api'
 
 gem 'jsonapi-resources', git: 'https://github.com/cerebris/jsonapi-resources'
 gem 'factory_girl_rails'
+gem 'json', github: 'flori/json', branch: 'v1.8'
 
 group :development do
   gem 'consistency_fail'
@@ -14,6 +15,7 @@ group :development do
 end
 
 gem 'paperclip'
+gem 'sqlite3'
 
 gem 'pg'
 gem 'faker'
